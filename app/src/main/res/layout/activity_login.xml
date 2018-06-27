@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:title="GREENHOUSE ONLINE MARKET"
+        android:layout_gravity="center"
+        app:titleTextColor="#FFF">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/abcd"/>
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/edittext"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_email"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/edittext"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:background="@drawable/buttonstyle"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/login" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8sp"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="FpasswordClicked"
+            android:gravity="center"
+            android:text="@string/forgot_password"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="SignupClicked"
+            android:text="@string/signup"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

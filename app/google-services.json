@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "54998493713",
+    "firebase_url": "https://gomfirebaseproject-3f897.firebaseio.com",
+    "project_id": "gomfirebaseproject-3f897",
+    "storage_bucket": "gomfirebaseproject-3f897.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54998493713:android:b8d3ce44d806ec83",
+        "android_client_info": {
+          "package_name": "com.example.musicophile.gom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54998493713-6hvdv5pa0da7af2jbrvgjoc443vkn90b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.musicophile.gom",
+            "certificate_hash": "3eafa151cb5617f2ac725ad7a00b07e44c1e32db"
+          }
+        },
+        {
+          "client_id": "54998493713-fmm6vf6qf27ckh95opgj6908jgm9ms1h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "54998493713-fmm6vf6qf27ckh95opgj6908jgm9ms1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByj1tuS3Rkmt4a4qxPqAXVjfkAHoDt7qE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54998493713-fmm6vf6qf27ckh95opgj6908jgm9ms1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

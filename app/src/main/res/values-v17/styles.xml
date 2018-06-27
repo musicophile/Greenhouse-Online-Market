@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="edittext">
+        <item name="android:background">@drawable/edittextstyle</item>
+        <item name="android:layout_height">45sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">5sp</item>
+        <item name="android:layout_marginRight">5sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:layout_marginTop">5sp</item>
+    </style>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:textAlignment="center"
+            app:title="GREENHOUSE ONLINE MARKET"
+            app:titleTextColor="#FFF">
+        </android.support.v7.widget.Toolbar>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="153sp"
+            android:layout_height="111sp"
+            app:srcCompat="@drawable/abcd"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            style="@style/edittext"
+            android:inputType="textPersonName"
+            android:hint="@string/name"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText4"
+            style="@style/edittext"
+            android:inputType="textPersonName"
+            android:hint="@string/phone_number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText5"
+            style="@style/edittext"
+            android:inputType="textPersonName"
+            android:hint="@string/location"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText6"
+            style="@style/edittext"
+            android:inputType="textPersonName"
+            android:hint="@string/email"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText7"
+            style="@style/edittext"
+            android:inputType="textPersonName"
+            android:hint="@string/username"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText9"
+            style="@style/edittext"
+            android:inputType="textPersonName"
+            android:hint="@string/password"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText10"
+            style="@style/edittext"
+            android:inputType="textPersonName"
+            android:hint="@string/confirm_password"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="144dp"
+            android:layout_height="52dp"
+            android:text="@string/farmer"
+            android:layout_marginTop="7sp"
+            android:background="@drawable/checkstyle"
+            android:textSize="25sp"
+            android:textColor="@color/colorD" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

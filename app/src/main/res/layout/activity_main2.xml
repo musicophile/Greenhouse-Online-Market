@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@drawable/ic_menu_black_24dp"
+        app:title="GREENHOUSE ONLINE MARKET"
+        app:titleTextColor="#FFF">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/titleA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_product_information"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:textSize="22sp"
+        android:layout_below="@+id/toolbar"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        style="@style/edittext"
+        android:hint="@string/product_name"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/edittext"
+        android:hint="@string/product_amount" />
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@style/edittext"
+        android:hint="@string/product_price" />
+
+    <EditText
+        android:id="@+id/editText4"
+        style="@style/edittext"
+        android:hint="@string/product_duration"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="6sp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5sp"
+            android:padding="5sp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/ButtonUploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonstyle"
+                android:onClick="submitClicked"
+                android:text="@string/submit" />
+
+            <Button
+                android:id="@+id/DisplayImagesButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/buttonstyle"
+                android:onClick="viewClicked"
+                android:text="@string/view" />
+        </LinearLayout>
+        <Imageview
+            android:id="@+id/ShowImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="4sp"
+            android:onClick="imageClicked"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher_round"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</LinearLayout>
